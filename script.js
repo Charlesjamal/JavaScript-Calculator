@@ -59,7 +59,7 @@ compute() {
 getDisplayNumber(number) {
     const stringNumber = number.toString()
     const integerDigits = parseFloat(stringNumber.split('.') [0])
-    const integerDigits = stringNumber.split('.') [1]
+    const decimalDigits = stringNumber.split('.') [1]
    let integerDisplay
     if (isNaN(integerDigits)) {
         integerDisplay = ''
